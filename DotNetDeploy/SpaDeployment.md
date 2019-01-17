@@ -6,6 +6,7 @@ Read the articles for more information:
 
 - [ASP.NET Core Deployment](AspNetCoreDeployment.md)
 - [ASP.NET Core Module](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/aspnet-core-module?view=aspnetcore-2.2)
+- [Reverse Proxy with URL Rewrite v2 and Application Request Routing](https://docs.microsoft.com/en-us/iis/extensions/url-rewrite-module/reverse-proxy-with-url-rewrite-v2-and-application-request-routing)
 
 ## Separate Domains
 

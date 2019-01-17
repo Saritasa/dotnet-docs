@@ -52,7 +52,7 @@ Invoke-WebDeployment -PackagePath 'C:\example-backend\Example.Web\Example.Web.zi
 
 ## Publish Directory
 
-Create the `publish` directory with site content:
+Create the `publish` directory with a site content:
 
 ```powershell
 dotnet publish -c Release "C:\example-backend\Example.Web\Example.Web.csproj"
