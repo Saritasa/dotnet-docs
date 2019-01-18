@@ -9,6 +9,7 @@ Windows Remote Administration
 - [WinRM *](WinRM.md)
 - [Windows Admin Center *](WindowsAdminCenter.md)
 - [IIS Administration](IisAdministration.md)
-- [SSH](Ssh.md)
+- [SSH *](Ssh.md)
+- [SFTP *](Sftp.md)
 
 \* Preferred articles are marked.

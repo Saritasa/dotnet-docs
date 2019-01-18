@@ -42,6 +42,29 @@ server2019
 
 Read [the article](https://blogs.msdn.microsoft.com/powershell/2017/12/15/using-the-openssh-beta-in-windows-10-fall-creators-update-and-windows-server-1709/) for advanced configuration.
 
+Public Key Authentication
+-------------------------
+
+Make sure a line presents in `C:\ProgramData\ssh\sshd_config`.
+
+```
+PubkeyAuthentication yes
+```
+
+You may want to disable a password authentication also.
+
+```
+PasswordAuthentication no
+```
+
+Use [ssh-copy-id](https://www.ssh.com/ssh/copy-id) command to publish an SSH key to a server from a Linux machine. The tool is not a part of OpenSSH for Windows.
+
+Alternative way - add an OpenSSH public key from id_rsa to `%USERPROFILE%\.ssh\authorized_keys` on remote server using SFTP, PowerShell Remoting or RDP.
+
+```powershell
+Add-Content -Encoding utf8 ~\.ssh\authorized_keys 'ssh-rsa ...'
+```
+
 PowerShell Core SSH Remoting
 ----------------------------
 
