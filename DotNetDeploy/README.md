@@ -5,6 +5,7 @@
 - [ASP.NET Deployment](AspNetDeployment.md)
 - [ASP.NET Core Deployment](AspNetCoreDeployment.md)
 - [SPA Deployment](SpaDeployment.md)
+- [Web Deploy Configuration](WebDeployConfiguration.md)
 - [Web Deploy Errors](WebDeployErrors.md)
 
 ## Examples
