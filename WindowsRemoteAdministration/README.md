@@ -1,6 +1,8 @@
 Windows Remote Administration
 =============================
 
+## Overview
+
 - [DCOM](Dcom.md)
 - [Server Manager](ServerManager.md)
 - [IIS Manager *](IisManager.md)
@@ -13,3 +15,7 @@ Windows Remote Administration
 - [SFTP *](Sftp.md)
 
 \* Preferred articles are marked.
+
+## Articles
+
+- [WinRM Configuration](WinRMConfiguration.md)

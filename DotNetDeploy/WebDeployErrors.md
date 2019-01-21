@@ -54,4 +54,4 @@ Error: The underlying connection was closed: Could not establish trust relations
 Error: The remote certificate is invalid according to the validation procedure.
 ```
 
-See the [instruction](https://github.com/Saritasa/PSGallery/blob/master/docs/WinRMConfiguration.md#generate-new-certificate) how to change WMSvc certificate.
+See the [instruction](../WindowsRemoteAdministration/WinRMConfiguration.md#generate-new-certificate) how to change WMSvc certificate.

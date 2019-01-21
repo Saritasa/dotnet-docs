@@ -30,7 +30,7 @@ WinRM is enabled by default in Server Core.
 
 Read the article about WinRM configuration: [Installation and Configuration for Windows Remote Management](https://docs.microsoft.com/en-us/windows/desktop/winrm/installation-and-configuration-for-windows-remote-management)
 
-If you want to quickly set up WinRM over HTTPS, read the [article](../WinRMConfiguration.md).
+If you want to quickly set up WinRM over HTTPS, read the [article](WinRMConfiguration.md).
 
 Start Session in Domain
 -----------------------
@@ -65,7 +65,7 @@ Set-Item WSMan:\localhost\Client\TrustedHosts web.saritasa.local -Concatenate -F
 Connect by HTTPS
 ----------------
 
-- Make sure HTTPS for WinRM is enabled and valid certificate is selected. You may set up configuration with self-signed certificate using [the instruction](../WinRMConfiguration.md).
+- Make sure HTTPS for WinRM is enabled and valid certificate is selected. You may set up configuration with self-signed certificate using [the instruction](WinRMConfiguration.md).
 - Connect to server using the hostname which is mentioned in the certificate.
 - The certificate authority must be added to the trusted list on your PC.
 
