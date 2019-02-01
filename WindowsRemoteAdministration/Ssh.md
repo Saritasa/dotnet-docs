@@ -65,6 +65,8 @@ Alternative way - add an OpenSSH public key from id_rsa to `%USERPROFILE%\.ssh\a
 Add-Content -Encoding utf8 ~\.ssh\authorized_keys 'ssh-rsa ...'
 ```
 
+Make sure you have correct permissions for the `.ssh` folder. Read the article for details: [Security protection of various files in Win32 OpenSSH](https://github.com/PowerShell/Win32-OpenSSH/wiki/Security-protection-of-various-files-in-Win32-OpenSSH)
+
 PowerShell Core SSH Remoting
 ----------------------------
 
