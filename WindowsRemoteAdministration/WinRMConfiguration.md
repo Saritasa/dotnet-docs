@@ -118,7 +118,8 @@ Restart-Computer
 3. Run as administrator on a build server:
 
     ```powershell
-    psake trust-host -properties "@{ServerHost='example.com'}"
+    Install-Module Saritasa.Web -Force
+    Import-TrustedSslCertificate 'example.com' 5986
     ```
 
 ## Use Existing Certificate
